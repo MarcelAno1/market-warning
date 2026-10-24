@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-24T16:44:25.958946+00:00",
+  "score": 38.4,
+  "level": "GELB",
+  "components": {
+    "Markttrend": {
+      "score": 58.5,
+      "weight": 0.45
+    },
+    "VIX": {
+      "score": 8.3,
+      "weight": 0.3
+    },
+    "Nachrichten": {
+      "score": null,
+      "weight": 0.25
+    }
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "close": 7623.68,
+      "return_20d_pct": -1.55,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 45.0
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "close": 25955.34,
+      "return_20d_pct": -4.11,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 51.6
+    },
+    {
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "close": 25181.65,
+      "return_20d_pct": -0.89,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 43.3
+    },
+    {
+      "name": "Euro Stoxx 50",
+      "ticker": "^STOXX50E",
+      "close": 6068.22,
+      "return_20d_pct": -3.72,
+      "below_50d": true,
+      "below_200d": true,
+      "score": 83.9
+    },
+    {
+      "name": "FTSE 100",
+      "ticker": "^FTSE",
+      "close": 10690.4,
+      "return_20d_pct": -0.05,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 41.1
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "^N225",
+      "close": 62693.16,
+      "return_20d_pct": -4.31,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 52.1
+    },
+    {
+      "name": "Hang Seng",
+      "ticker": "^HSI",
+      "close": 23093.37,
+      "return_20d_pct": -7.01,
+      "below_50d": true,
+      "below_200d": true,
+      "score": 92.3
+    }
+  ],
+  "vix": {
+    "value": 19.45,
+    "change_5_sessions_pct": -2.7,
+    "score": 8.3
+  },
+  "news": [],
+  "reasons": [
+    "Mehrere Markttrend-Signale sind schwach.",
+    "Daten fehlen für: Nachrichten"
+  ],
+  "data_errors": [],
+  "news_error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=25)",
+  "missing_components": [
+    "Nachrichten"
+  ],
+  "method": "Heuristik, nicht als Crashprognose validiert"
+}
