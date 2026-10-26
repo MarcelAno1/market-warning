@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T16:44:25.958946+00:00",
-  "score": 38.4,
+  "generated_at": "2026-10-26T23:00:44.324668+00:00",
+  "score": 33.9,
   "level": "GELB",
   "components": {
     "Markttrend": {
-      "score": 58.5,
+      "score": 52.3,
       "weight": 0.45
     },
     "VIX": {
-      "score": 8.3,
+      "score": 6.3,
       "weight": 0.3
     },
     "Nachrichten": {
@@ -20,20 +20,20 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7623.68,
-      "return_20d_pct": -1.55,
+      "close": 7676.77,
+      "return_20d_pct": -0.09,
       "below_50d": true,
       "below_200d": false,
-      "score": 45.0
+      "score": 41.3
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 25955.34,
-      "return_20d_pct": -4.11,
+      "close": 26169.38,
+      "return_20d_pct": -2.43,
       "below_50d": true,
       "below_200d": false,
-      "score": 51.6
+      "score": 47.2
     },
     {
       "name": "DAX",
@@ -56,11 +56,11 @@
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "close": 10690.4,
-      "return_20d_pct": -0.05,
-      "below_50d": true,
+      "close": 10767.33,
+      "return_20d_pct": 0.77,
+      "below_50d": false,
       "below_200d": false,
-      "score": 41.1
+      "score": 5.7
     },
     {
       "name": "Nikkei 225",
@@ -82,9 +82,9 @@
     }
   ],
   "vix": {
-    "value": 19.45,
-    "change_5_sessions_pct": -2.7,
-    "score": 8.3
+    "value": 18.39,
+    "change_5_sessions_pct": -0.27,
+    "score": 6.3
   },
   "news": [],
   "reasons": [
@@ -92,7 +92,7 @@
     "Daten fehlen für: Nachrichten"
   ],
   "data_errors": [],
-  "news_error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=25)",
+  "news_error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22stock+market%22+OR+recession+OR+%22bank+crisis%22+OR+%22financial+crisis%22+OR+inflation+OR+tariffs+OR",
   "missing_components": [
     "Nachrichten"
   ],
