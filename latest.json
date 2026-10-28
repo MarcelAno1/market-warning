@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T22:58:43.157019+00:00",
-  "score": 30.0,
+  "generated_at": "2026-10-28T23:02:03.307062+00:00",
+  "score": 28.8,
   "level": "GELB",
   "components": {
     "Markttrend": {
-      "score": 46.3,
+      "score": 45.0,
       "weight": 0.45
     },
     "VIX": {
-      "score": 5.5,
+      "score": 4.5,
       "weight": 0.3
     },
     "Nachrichten": {
@@ -20,20 +20,20 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7722.6,
-      "return_20d_pct": 0.67,
+      "close": 7743.98,
+      "return_20d_pct": 1.21,
       "below_50d": false,
       "below_200d": false,
-      "score": 6.0
+      "score": 4.6
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 26477.81,
-      "return_20d_pct": -1.19,
+      "close": 26549.85,
+      "return_20d_pct": -1.16,
       "below_50d": true,
       "below_200d": false,
-      "score": 44.1
+      "score": 44.0
     },
     {
       "name": "DAX",
@@ -56,35 +56,35 @@
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "close": 10686.54,
-      "return_20d_pct": 0.47,
+      "close": 10694.5,
+      "return_20d_pct": 0.83,
       "below_50d": true,
       "below_200d": false,
-      "score": 39.8
+      "score": 38.9
     },
     {
       "name": "Nikkei 225",
       "ticker": "^N225",
-      "close": 62189.65,
-      "return_20d_pct": -6.29,
+      "close": 63268.37,
+      "return_20d_pct": -3.96,
       "below_50d": true,
       "below_200d": false,
-      "score": 57.2
+      "score": 51.2
     },
     {
       "name": "Hang Seng",
       "ticker": "^HSI",
-      "close": 23211.81,
-      "return_20d_pct": -6.26,
+      "close": 23041.32,
+      "return_20d_pct": -5.99,
       "below_50d": true,
       "below_200d": true,
-      "score": 90.4
+      "score": 89.7
     }
   ],
   "vix": {
-    "value": 17.52,
-    "change_5_sessions_pct": 1.21,
-    "score": 5.5
+    "value": 16.91,
+    "change_5_sessions_pct": 1.38,
+    "score": 4.5
   },
   "news": [],
   "reasons": [
