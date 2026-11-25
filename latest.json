@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-23T23:19:54.766905+00:00",
-  "score": 65.0,
+  "generated_at": "2026-11-25T04:58:30.392215+00:00",
+  "score": 59.0,
   "level": "ORANGE",
   "components": {
     "Markttrend": {
-      "score": 86.4,
+      "score": 82.6,
       "weight": 0.45
     },
     "VIX": {
-      "score": 32.9,
+      "score": 23.6,
       "weight": 0.3
     },
     "Nachrichten": {
@@ -20,71 +20,71 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7237.17,
-      "return_20d_pct": -5.73,
+      "close": 7201.09,
+      "return_20d_pct": -6.75,
       "below_50d": true,
       "below_200d": true,
-      "score": 89.0
+      "score": 91.7
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 24089.56,
-      "return_20d_pct": -7.95,
-      "below_50d": true,
-      "below_200d": true,
-      "score": 94.7
-    },
-    {
-      "name": "DAX",
-      "ticker": "^GDAXI",
-      "close": 24802.78,
-      "return_20d_pct": -1.5,
-      "below_50d": true,
-      "below_200d": true,
-      "score": 78.2
-    },
-    {
-      "name": "Euro Stoxx 50",
-      "ticker": "^STOXX50E",
-      "close": 5941.95,
-      "return_20d_pct": -2.08,
-      "below_50d": true,
-      "below_200d": true,
-      "score": 79.7
-    },
-    {
-      "name": "FTSE 100",
-      "ticker": "^FTSE",
-      "close": 10480.82,
-      "return_20d_pct": -2.66,
-      "below_50d": true,
-      "below_200d": true,
-      "score": 81.2
-    },
-    {
-      "name": "Nikkei 225",
-      "ticker": "^N225",
-      "close": 56436.65,
-      "return_20d_pct": -10.29,
+      "close": 23733.54,
+      "return_20d_pct": -10.36,
       "below_50d": true,
       "below_200d": true,
       "score": 100.0
     },
     {
-      "name": "Hang Seng",
-      "ticker": "^HSI",
-      "close": 22410.8,
-      "return_20d_pct": -2.96,
+      "name": "DAX",
+      "ticker": "^GDAXI",
+      "close": 25017.81,
+      "return_20d_pct": -2.24,
+      "below_50d": true,
+      "below_200d": false,
+      "score": 46.8
+    },
+    {
+      "name": "Euro Stoxx 50",
+      "ticker": "^STOXX50E",
+      "close": 6003.76,
+      "return_20d_pct": -2.61,
       "below_50d": true,
       "below_200d": true,
-      "score": 81.9
+      "score": 81.1
+    },
+    {
+      "name": "FTSE 100",
+      "ticker": "^FTSE",
+      "close": 10467.1,
+      "return_20d_pct": -2.05,
+      "below_50d": true,
+      "below_200d": true,
+      "score": 79.6
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "^N225",
+      "close": 57019.89,
+      "return_20d_pct": -8.31,
+      "below_50d": true,
+      "below_200d": true,
+      "score": 95.7
+    },
+    {
+      "name": "Hang Seng",
+      "ticker": "^HSI",
+      "close": 22265.68,
+      "return_20d_pct": -3.59,
+      "below_50d": true,
+      "below_200d": true,
+      "score": 83.6
     }
   ],
   "vix": {
-    "value": 26.62,
-    "change_5_sessions_pct": 16.19,
-    "score": 32.9
+    "value": 26.36,
+    "change_5_sessions_pct": 3.53,
+    "score": 23.6
   },
   "news": [],
   "reasons": [
@@ -92,7 +92,7 @@
     "Daten fehlen für: Nachrichten"
   ],
   "data_errors": [],
-  "news_error": "Expecting value: line 1 column 1 (char 0)",
+  "news_error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22stock+market%22+OR+recession+OR+%22bank+crisis%22+OR+%22financial+crisis%22+OR+inflation+OR+tariffs+OR",
   "missing_components": [
     "Nachrichten"
   ],
