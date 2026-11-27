@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-26T04:15:06.401220+00:00",
-  "score": 67.4,
-  "level": "ROT",
+  "generated_at": "2026-11-27T04:24:14.870992+00:00",
+  "score": 55.7,
+  "level": "ORANGE",
   "components": {
     "Markttrend": {
-      "score": 88.8,
+      "score": 78.3,
       "weight": 0.45
     },
     "VIX": {
-      "score": 35.3,
+      "score": 21.9,
       "weight": 0.3
     },
     "Nachrichten": {
@@ -38,53 +38,53 @@
     {
       "name": "DAX",
       "ticker": "^GDAXI",
-      "close": 24702.13,
-      "return_20d_pct": -3.9,
+      "close": 25215.52,
+      "return_20d_pct": -3.17,
       "below_50d": true,
-      "below_200d": true,
-      "score": 84.4
+      "below_200d": false,
+      "score": 49.1
     },
     {
       "name": "Euro Stoxx 50",
       "ticker": "^STOXX50E",
-      "close": 5894.46,
-      "return_20d_pct": -4.43,
+      "close": 6014.74,
+      "return_20d_pct": -3.1,
       "below_50d": true,
       "below_200d": true,
-      "score": 85.7
+      "score": 82.3
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "close": 10426.9,
-      "return_20d_pct": -2.5,
+      "close": 10609.3,
+      "return_20d_pct": -1.05,
       "below_50d": true,
-      "below_200d": true,
-      "score": 80.8
+      "below_200d": false,
+      "score": 43.7
     },
     {
       "name": "Nikkei 225",
       "ticker": "^N225",
-      "close": 57711.04,
-      "return_20d_pct": -8.78,
+      "close": 58498.39,
+      "return_20d_pct": -8.53,
       "below_50d": true,
       "below_200d": true,
-      "score": 96.9
+      "score": 96.2
     },
     {
       "name": "Hang Seng",
       "ticker": "^HSI",
-      "close": 22378.17,
-      "return_20d_pct": -2.53,
+      "close": 22416.44,
+      "return_20d_pct": -3.77,
       "below_50d": true,
       "below_200d": true,
-      "score": 80.8
+      "score": 84.0
     }
   ],
   "vix": {
-    "value": 28.29,
-    "change_5_sessions_pct": 15.19,
-    "score": 35.3
+    "value": 26.8,
+    "change_5_sessions_pct": -5.77,
+    "score": 21.9
   },
   "news": [],
   "reasons": [
@@ -92,7 +92,7 @@
     "Daten fehlen für: Nachrichten"
   ],
   "data_errors": [],
-  "news_error": "Expecting value: line 1 column 1 (char 0)",
+  "news_error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22stock+market%22+OR+recession+OR+%22bank+crisis%22+OR+%22financial+crisis%22+OR+inflation+OR+tariffs+OR",
   "missing_components": [
     "Nachrichten"
   ],
