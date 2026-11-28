@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-27T04:24:14.870992+00:00",
-  "score": 55.7,
+  "generated_at": "2026-11-28T04:03:43.521174+00:00",
+  "score": 48.4,
   "level": "ORANGE",
   "components": {
     "Markttrend": {
-      "score": 78.3,
+      "score": 69.8,
       "weight": 0.45
     },
     "VIX": {
-      "score": 21.9,
+      "score": 16.4,
       "weight": 0.3
     },
     "Nachrichten": {
@@ -20,71 +20,71 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "close": 7182.78,
-      "return_20d_pct": -7.25,
+      "close": 7297.49,
+      "return_20d_pct": -5.48,
       "below_50d": true,
       "below_200d": true,
-      "score": 92.9
+      "score": 88.4
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "close": 23585.8,
-      "return_20d_pct": -11.16,
+      "close": 24129.5,
+      "return_20d_pct": -7.85,
       "below_50d": true,
       "below_200d": true,
-      "score": 100.0
+      "score": 94.5
     },
     {
       "name": "DAX",
       "ticker": "^GDAXI",
-      "close": 25215.52,
-      "return_20d_pct": -3.17,
+      "close": 25441.24,
+      "return_20d_pct": -1.46,
       "below_50d": true,
       "below_200d": false,
-      "score": 49.1
+      "score": 44.8
     },
     {
       "name": "Euro Stoxx 50",
       "ticker": "^STOXX50E",
-      "close": 6014.74,
-      "return_20d_pct": -3.1,
+      "close": 6089.2,
+      "return_20d_pct": -0.69,
       "below_50d": true,
       "below_200d": true,
-      "score": 82.3
+      "score": 76.1
     },
     {
       "name": "FTSE 100",
       "ticker": "^FTSE",
-      "close": 10609.3,
-      "return_20d_pct": -1.05,
-      "below_50d": true,
+      "close": 10698.8,
+      "return_20d_pct": -0.29,
+      "below_50d": false,
       "below_200d": false,
-      "score": 43.7
+      "score": 8.4
     },
     {
       "name": "Nikkei 225",
       "ticker": "^N225",
-      "close": 58498.39,
-      "return_20d_pct": -8.53,
+      "close": 58711.11,
+      "return_20d_pct": -8.2,
       "below_50d": true,
       "below_200d": true,
-      "score": 96.2
+      "score": 95.4
     },
     {
       "name": "Hang Seng",
       "ticker": "^HSI",
-      "close": 22416.44,
-      "return_20d_pct": -3.77,
+      "close": 22694.77,
+      "return_20d_pct": -2.57,
       "below_50d": true,
       "below_200d": true,
-      "score": 84.0
+      "score": 81.0
     }
   ],
   "vix": {
-    "value": 26.8,
-    "change_5_sessions_pct": -5.77,
-    "score": 21.9
+    "value": 23.81,
+    "change_5_sessions_pct": -33.66,
+    "score": 16.4
   },
   "news": [],
   "reasons": [
